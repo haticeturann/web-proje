@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{ /*yazı boyutu referansı*/
+    font-size: 10px;
+}
+#contanier .header{
+    
+    font-size:2rem;
+    font-weight: 400;
+    margin-top: 200px;
+    margin-left:0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+
+body{
+    margin: left 0;
+    background-image: url("hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    height: 100vh; 
+    font-family: lato,sans-serif; /*sayfada kullanılacak font*/
+    font-size: 1.6rem;/*yazı boyutu*/
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+a{/*yazıların alt çizgisini kaldırır*/
+    text-decoration: none;
+}
+
+.text-uppercase{/*yazıları büyük harfe çevirmek için*/
+    text-transform: uppercase;  
+}
+
+ul{/*menüdeki yuvarlakları kaldırdı*/
+    list-style-type: none;
+    
+}
+
+.contanier-clearfix{
+    font-size: large;
+
+}
+
+
+
+.clearfix::after{/*navbar düzenleme*/
+    content: "";
+    display: inline-block;
+    clear: both;
+    
+
+}
+
+.contanier{
+    display:inline-block;
+    margin-left: 50px;
+    margin-top:0;
+
+   
+}
+
+
+/*navbar*/
+nav{
+    width: 100%;
+    font-family: Montserrat;
+    background-color:rgba(0,0,0,.2);/*transparan navbar*/
+    color:white;
+    padding-top: 10px;/*navbar yüksekliği*/
+    padding-bottom: 0.1rem;
+    position: fixed;/*navbarı aşağı hareketlerde sabit tutar.*/
+}
+
+#nav-links{/*nav-links leri sağa hizaladık*/
+   float: right; 
+   padding-right: 1.2rem;
+   margin-left:100rem ;/*menüdeki yazıları sağa çektim*/
+   
+}
+ #nav-links .nav-item{/*nav-linksleri yan yana yazdırma*/
+     float:left;
+     margin: 1.5rem;
+     font-size: large;
+     
+ }
+ #nav-links .nav-link{
+     color: white;
+     font-size: 1.6rem;
+     font-weight: 700;
+     display: block;
+}
+     
+    
+ 
+#nav-links .nav-link:hover{/* nav-linkin üzerine geldiğinde renk değiştirir.*/
+     color: aqua;
+}
+
+
+/*header*/
+header{
+   
+    background-origin: 50px;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    height: 100vh;
+    background-size: 100% 100%;
+
+    
+}
+
+.slider{
+    width: 10px;
+    height: 400vh;
+    background-size: cover;
+    background-position: right;
+}
+
+.resimSlider{
+    height: 800px;
+    width: 50px;
+    
+    
+}
+    
+.body{
+      font-family: 'Raleway', sans-serif; 
+      
+} 
+
+
+
+/* 
+.contanier .header{
+    margin: left 0;
+    background-image: url("hand-painted-watercolor-pastel-sky-background_23-2148902771\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed ;
+    background-size: cover;
+} */
+
+
+
+
+
